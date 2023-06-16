@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Code Pro', monospace;
+    outline: none;
+}
+
+body {
+    background: url("./img/DesignComTitulo.png");
+    background-size: cover;
+}
+
+.container {
+    background-color: #FFFFFF;
+    width: 400px;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 180px auto 0;
+}
+
+.container2 {
+    display: flex;
+    align-items: center;
+
+}
+
+img {
+    height: 30px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.input-task {
+    border: none;
+    border-radius: 5px;
+    width: 300px;
+    height: 40px;
+    padding-left: 10px;
+}
+
+.button-task {
+    border: none;
+    border-radius: 100px;
+    height: 30px;
+    background-color: #32b89d;
+    color: #ffffff;
+    font-size: 10px;
+    padding: 0 15px;
+    cursor: pointer;
+}
+
+.button-task:hover {
+    opacity: 0.8;
+}
+
+.button-task:active {
+    opacity: 0.6;
+}
+
+
+.list-task {
+    width: 100%;
+    list-style: none;
+}
+
+.task {
+    background-color: #C7DBD0;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    cursor: pointer;
+
+}
+
+.task:hover img {
+    opacity: 1;
+}
+
+.list-title {
+    font-family: 'Abril Fatface', cursive;
+    height: 70px;
+    text-align: center;
+}
+
+.done {
+    text-decoration: line-through;
+}
